@@ -1,0 +1,23 @@
+{
+  "name": "downloads",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "nodemon app.js"
+  },
+"devDependencies": {
+  "nodemon": "..."
+},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "cheerio": "^1.0.0-rc.10",
+    "create-react-app": "^1.2.1",
+    "express": "^4.17.2",
+    "himalaya": "^1.1.0",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
