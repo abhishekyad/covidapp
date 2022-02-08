@@ -32,8 +32,10 @@ function begin (){
       var s=JSON.stringify(json);
       s=s.substring(1);
       s=','+s;
-      fs.appendFile('../frontend/src/customer1.json', s, function(err){
+      fs.appendFile('./client/src/data.json', s, function(err){
       console.log('File successfully written! - Check your project directory for the output.json file');
+    })
+      fs.appendFile('./client/public/assets/datalist.json', s, function(err){
     })
       
     }
@@ -90,7 +92,7 @@ function begin (){
               json+=",";
           }
           
-      fs.writeFile('../frontend/src/customer1.json', json, function(err){
+      fs.writeFile('./client/src/data.json', json, function(err){
       console.log('File successfully written! - Check your project directory for the output.json file');
     })
         }
