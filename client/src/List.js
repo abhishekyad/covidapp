@@ -27,7 +27,7 @@ export default class CustomerDetails extends Component {
 
   //Function to Load the customerdetails data from json.
   getCustomerDetails(id) {
-    axios.get('assets/samplejson/customer' + id + '.json').then(response => {
+    axios.get('assets/datalist.json').then(response => {
       this.setState({customerDetails: response})
     })
   };
