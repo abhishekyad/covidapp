@@ -5,7 +5,6 @@ import Customers from './CovidList'
 import { BrowserRouter as Router, Switch, Route, Redirect} from 'react-router-dom';
 import IndiaMap from "./IndiaMap";
 import mask from './mask.png';
-import inshorts from './inshorts.png';
 
 class App extends Component {
   render() {
