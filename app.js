@@ -100,7 +100,7 @@ function begin (){
 })
 }
 
-setInterval(begin,6000);
+setInterval(begin,6);
 
 console.log('Magic happens on port 8081');
 exports = module.exports = app;
